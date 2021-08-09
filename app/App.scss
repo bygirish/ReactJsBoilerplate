@@ -1,0 +1,157 @@
+
+html, body {
+  height: 100%;
+  font-family: 'Heebo', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.app-container{
+  min-height: 100vh;
+}
+
+h2 {
+  @media screen and (max-width: 400px) {
+    font-size: 18px;
+  }
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  @media screen and (min-width: 1080px) {
+    max-width: 900px;
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 1100px;
+  }
+}
+
+.grey-background {
+  background: rgba($color: #E5E5E5, $alpha: 0.2);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.layout-container {
+  min-height: 100vh;
+}
+
+.fixed-sider {
+  box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.075);
+  @media screen and (max-width: 576px) {
+    display: none
+  }
+}
+
+.ant-menu-item::after {
+  border-right: 0 !important;
+}
+
+.ant-menu-inline {
+  border-right: 0 !important;
+}
+
+.ant-menu-vertical {
+  border-right: 0 !important;
+}
+
+.wf_spinner {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+
+// antd css overrides
+.ant-table-wrapper {
+  width: 100%;
+  margin: 20px;
+}
+
+.ant-progress-bg {
+  height: 8px !important;
+  border-radius: 10px;;
+}
+
+.ant-progress-text {
+  color: #000000;
+}
+
+.ant-progress-inner{
+  border-radius: 10px;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner{
+  border: 1px solid #E0E0E0 !important;
+}
+
+.ant-checkbox .ant-checkbox-inner {
+  border-color: #F68821;
+  border: 1px solid #E0E0E0 !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #F68821;
+  border: 1px solid #E0E0E0 !important;
+}
+
+.ant-spin-dot-item  {
+  background-color: #F68821;
+}
+
+.ant-checkbox + span {
+  padding-right: 0px;
+}
+
+// React Markdown overrides
+
+.wf_markdown p,li,td {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+}
+
+.wf_markdown > blockquote {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.wf_markdown > p > a,.wf_markdown > em > a {
+  color: orange;
+}
+
+.wf_markdown {
+  img {
+     max-width: 100%;
+  }
+}
+
+.wf_markdown_a {
+  color: orange;
+}

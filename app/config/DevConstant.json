@@ -1,0 +1,20 @@
+{
+  "BASE_URL": "",
+  "WEB_URL": "",
+  "ADMIN_CONSOLE": "",
+  "SENTRY_DNS": "",
+  "SPLUNK_CONFIG": {
+    "URL": "",
+    "TOKEN": "",
+    "SOURCE": ""
+  },
+  "FIREBASE_WEB_CONFIG": {
+    "apiKey": "",
+    "authDomain": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": "",
+    "measurementId": ""
+  }
+}

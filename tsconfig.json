@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "jsx": "react",
+    "lib": ["es5", "es6", "dom"],
+    "baseUrl": "app",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@common/*": ["common/*"],
+      "@navigator/*": ["navigator/*"],
+      "@containers/*": ["containers/*"],
+      "@presentation/*": ["presentation/*"],
+      "@translations/*": ["translations/*"],
+      "@components/*": ["components/*"],
+      "@constants/*": ["constants/*"],
+      "@config/*": ["config/*"],
+      "@utils/*": ["utils/*"],
+      "@router/*": ["router/*"],
+      "@store/*": ["store/*"],
+      "@layout/*": ["layout/*"],
+      "@theme/*": ["theme/*"],
+
+      "@redux/*": ["common/redux/*"],
+      "@network/*": ["common/network/*"],
+      "@models/*": ["common/domain/models/*"],
+      "@repositories/*": ["common/domain/repositories/*"],
+      "@services/*": ["common/services/*"],
+
+      "@webServices/*": ["webServices/*"]
+    }
+  },
+  "include": ["./app/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "awesomeTypescriptLoaderOptions": {
+    "reportFiles": ["./app/**/*"]
+  },
+  "allowSyntheticDefaultImports": true
+}

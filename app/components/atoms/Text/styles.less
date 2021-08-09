@@ -1,0 +1,627 @@
+// @import (reference) "@{globalLessVars}";
+
+// .display1 {
+//     &.light {
+//         font-family: FrankRuhlLibreLight;
+//         font-size: 48px;
+//         //line-height: 60px;
+//         letter-spacing: 0.96px;
+//         opacity: 1;
+//         color: @neutral100;
+//     }
+
+//     &.regular {
+//         font-family: FrankRuhlLibreRegular;
+//         font-size: 48px;
+//         //line-height: 60px;
+//         letter-spacing: 1.44px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: FrankRuhlLibreMedium;
+//         font-size: 48px;
+//         //line-height: 60px;
+//         letter-spacing: 1.54px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: FrankRuhlLibreBold;
+//         font-size: 48px;
+//         //line-height: 60px;
+//         letter-spacing: 1.73px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.black {
+//         font-family: FrankRuhlLibreBlack;
+//         font-size: 48px;
+//         //line-height: 60px;
+//         letter-spacing: 1.92px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+// }
+
+// .display2 {
+//     &.light {
+//         font-family: MuliLight;
+//         font-size: 44px;
+//         //line-height: 60px;
+//         letter-spacing: 0.96px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 44px;
+//         //line-height: 60px;
+//         letter-spacing: 1.44px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: MuliMedium;
+//         font-size: 44px;
+//         //line-height: 60px;
+//         letter-spacing: 1.54px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: MuliBold;
+//         font-size: 44px;
+//         //line-height: 60px;
+//         letter-spacing: 1.73px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.black {
+//         font-family: MuliBlack;
+//         font-size: 44px;
+//         //line-height: 60px;
+//         letter-spacing: 1.92px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold1 {
+//         font-family: MuliBold;
+//         font-size: 24px;
+//         line-height: 60px;
+//         letter-spacing: 0.86px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold2 {
+//         font-family: MuliBold;
+//         font-size: 20px;
+//         line-height: 48px;
+//         letter-spacing: 0.32px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold3 {
+//         font-family: MuliBold;
+//         font-size: 18px;
+//         line-height: 28px;
+//         letter-spacing: 0.43px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.regular1 {
+//         font-family: MuliRegular;
+//         font-size: 14px;
+//         line-height: 22px;
+//         letter-spacing: 0.7px;
+//         color: @neutral500;
+//         opacity: 1;
+//     }
+
+//     &.medium1 {
+//         font-family: MuliMedium;
+//         font-size: 14px;
+//         line-height: 24px;
+//         letter-spacing: 0.7px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium2 {
+//         font-family: MuliMedium;
+//         font-size: 14px;
+//         line-height: 48px;
+//         letter-spacing: 0.42px;
+//         color: @neutral500;
+//         opacity: 1;
+//     }
+// }
+
+// .para1 {
+//   &.light {
+//     font-family: MuliLight;
+//     font-size: 14px;
+//     line-height: 22px;
+//     letter-spacing: 0.34px;
+//     color: @neutral500;
+//     opacity: 1;
+//   }
+
+//   &.bold {
+//     font-family: MuliBold;
+//     font-size: 16px;
+//     line-height: 22px;
+//     letter-spacing: 0.7px;
+//     color: @neutral100;
+//     opacity: 1;
+//   }
+
+//   &.medium {
+//     font-family: MuliMedium;
+//     font-size: 12px;
+//     line-height: 18px;
+//     letter-spacing: 0.38px;
+//     color: @neutral100;
+//     opacity: 1;
+//   }
+// }
+// .para2 {
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 12px;
+//         // line-height: 18px;
+//         letter-spacing: 0.19px;
+//         color: @neutral500;
+//         opacity: 1;
+//     }
+
+//     &.light {
+//         font-family: MuliLight;
+//         font-size: 12px;
+//         // line-height: 18px;
+//         letter-spacing: 0.19px;
+//         color: @neutral500;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: MuliBold;
+//         font-size: 14px;
+//         // line-height: 18px;
+//         letter-spacing: 0.7px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+// }
+
+// .h2 {
+//     &.light {
+//         font-family: MuliLight;
+//         font-size: 32px;
+//         //line-height: 60px;
+//         letter-spacing: 0.64px;
+//         color: @neutral100;
+//         opacity: 1;
+
+//         .media-up-to("sm", {font-size: 24px;});
+//     }
+
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 32px;
+//         //line-height: 60px;
+//         letter-spacing: 0.96px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: MuliMedium;
+//         font-size: 32px;
+//         //line-height: 60px;
+//         letter-spacing: 1.02px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: MuliBold;
+//         font-size: 32px;
+//         //line-height: 60px;
+//         letter-spacing: 1.15px;
+//         color: @neutral100;
+//         opacity: 1;
+//         .media-up-to("sm", {font-size: 20px;});
+//     }
+
+//     &.black {
+//         font-family: MuliBlack;
+//         font-size: 32px;
+//         //line-height: 60px;
+//         letter-spacing: 1.28px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium2 {
+//         font-family: FrankRuhlLibreMedium;
+//         font-size: 32px;
+//         //line-height: 60px;
+//         letter-spacing: 0.64px;
+//         color: @neutral100;
+//         opacity: 1;
+
+//         .media-up-to("sm", {font-size: 24px;});
+//     }
+// }
+
+// .h3 {
+//     &.light {
+//         font-family: FrankRuhlLibreLight;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.48px;
+//         opacity: 1;
+//         color: @neutral100;
+//     }
+
+//     &.regular {
+//         font-family: FrankRuhlLibreRegular;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.72px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: FrankRuhlLibreMedium;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.77px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: FrankRuhlLibreBold;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.86px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.black {
+//         font-family: FrankRuhlLibreBlack;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.96px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+// }
+// .h4 {
+//     &.light {
+//         font-family: MuliLight;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.91px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.91px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: MuliMedium;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.91px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: MuliBold;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.91px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.black {
+//         font-family: MuliBlack;
+//         font-size: 24px;
+//         //line-height: 60px;
+//         letter-spacing: 0.91px;
+//     }
+// }
+
+// .h6 {
+//     &.light {
+//         font-family: MuliLight;
+//         font-size: 18px;
+//         //line-height: 60px;
+//         letter-spacing: 0.58px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 18px;
+//         //line-height: 60px;
+//         letter-spacing: 0.58px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: MuliMedium;
+//         font-size: 18px;
+//         //line-height: 60px;
+//         letter-spacing: 0.58px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: MuliBold;
+//         font-size: 18px;
+//         //line-height: 60px;
+//         letter-spacing: 0.58px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.black {
+//         font-family: MuliBlack;
+//         font-size: 18px;
+//         //line-height: 60px;
+//         letter-spacing: 0.58px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+// }
+
+// .link1 {
+//     &.bold1 {
+//         font-family: MuliBold;
+//         font-size: 14px;
+//         line-height: 48px;
+//         letter-spacing: 0.65px;
+//         color: @error100;
+//         opacity: 1;
+//         text-decoration: underline;
+//         cursor: pointer;
+//     }
+// }
+
+// .h8 {
+//     &.light {
+//         font-family: MuliLight;
+//         font-size: 16px;
+//         //line-height: 60px;
+//         letter-spacing: 0.32px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 16px;
+//         //line-height: 60px;
+//         letter-spacing: 0.32px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold4 {
+//         font-family: MuliBold;
+//         font-size: 14px;
+//         // line-height: 24px;
+//         letter-spacing: 0.45px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.regular1 {
+//         font-family: MuliRegular;
+//         font-size: 14px;
+//         line-height: 22px;
+//         letter-spacing: 0.7px;
+//         color: @neutral500;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: MuliMedium;
+//         font-size: 16px;
+//         //line-height: 60px;
+//         letter-spacing: 0.32px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: MuliBold;
+//         font-size: 16px;
+//         //line-height: 60px;
+//         letter-spacing: 0.32px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.black {
+//         font-family: MuliBlack;
+//         font-size: 16px;
+//         //line-height: 60px;
+//         letter-spacing: 0.32px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.semibold {
+//         font-family: MuliSemiBold;
+//         font-size: 16px;
+//         opacity: 1;
+//     }
+// }
+
+// .sub-h1 {
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 16px;
+//         //line-height: 24px;
+//         letter-spacing: 0.48px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: MuliMedium;
+//         font-size: 16px;
+//         //line-height: 24px;
+//         letter-spacing: 0.51px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: MuliMedium;
+//         font-size: 16px;
+//         //line-height: 24px;
+//         letter-spacing: 0.51px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.semibold {
+//         font-family: MuliSemiBold;
+//         font-size: 12px;
+//         //line-height: 24px;
+//         letter-spacing: 0.43px;
+//         color: @other6;
+//         opacity: 1;
+//     }
+// }
+
+// .sub-h2 {
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 14px;
+//         //line-height: 22px;
+//         letter-spacing: 0.22px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: MuliMedium;
+//         font-size: 14px;
+//         //line-height: 22px;
+//         letter-spacing: 0.22px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: MuliBold;
+//         font-size: 14px;
+//         //line-height: 22px;
+//         letter-spacing: 0.22px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+// }
+
+// .para1 {
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 14px;
+//         //line-height: 22px;
+//         letter-spacing: 0.28px;
+//         color: @neutral100;
+//         opacity: 1;
+//         .media-up-to("sm", {font-size: 12px;});
+//     }
+
+//     &.medium {
+//         font-family: MuliMedium;
+//         font-size: 14px;
+//         //line-height: 22px;
+//         letter-spacing: 0.28px;
+//         color: @neutral100;
+//         opacity: 1;
+//         &.regular {
+//             font-family: MuliRegular;
+//             font-size: 16px;
+//             line-height: 60px;
+//             letter-spacing: 0.67px;
+//             opacity: 1;
+//             color: @neutral100;
+//         }
+//     }
+// }
+
+// .caption1 {
+//     &.light {
+//         font-family: MuliLight;
+//         font-size: 14px;
+//         letter-spacing: 0.28px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.regular {
+//         font-family: MuliRegular;
+//         font-size: 14px;
+//         letter-spacing: 0.28px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.medium {
+//         font-family: MuliMedium;
+//         font-size: 14px;
+//         letter-spacing: 0.28px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.bold {
+//         font-family: MuliBold;
+//         font-size: 14px;
+//         letter-spacing: 0.28px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+
+//     &.black {
+//         font-family: MuliBlack;
+//         font-size: 14px;
+//         letter-spacing: 0.28px;
+//         color: @neutral100;
+//         opacity: 1;
+//     }
+// }

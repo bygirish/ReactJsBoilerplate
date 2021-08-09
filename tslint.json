@@ -1,0 +1,120 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "no-var-requires": false,
+    "no-inferred-empty-object-type": false,
+    "ordered-imports": [
+      true,
+      {
+        "module-source-path": "full",
+        "grouped-imports": true,
+        "groups": [
+          {
+            "name": "react",
+            "match": "^react.*",
+            "order": 1
+          },
+          {
+            "name": "redux",
+            "match": "^redux.*",
+            "order": 1
+          },
+          {
+            "name": "antd",
+            "match": "^antd.*",
+            "order": 2
+          },
+          {
+            "name": "json-object-mapper",
+            "match": "^json-object-mapper.*",
+            "order": 2
+          },
+          {
+            "name": "services",
+            "match": "^@services.*",
+            "order": 3
+          },
+          {
+            "name": "utils",
+            "match": "^@utils.*",
+            "order": 3
+          },
+          {
+            "name": "repositories",
+            "match": "^@repositories.*",
+            "order": 4
+          },
+          {
+            "name": "common",
+            "match": "^@common",
+            "order": 5
+          },
+          {
+            "name": "redux",
+            "match": "^@redux",
+            "order": 6
+          },
+          {
+            "name": "models",
+            "match": "^@models",
+            "order": 7
+          },
+          {
+            "name": "assets",
+            "match": "^@assets",
+            "order": 8
+          },
+          {
+            "name": "translations",
+            "match": "^@translations",
+            "order": 8
+          },
+          {
+            "name": "components",
+            "match": "^@components",
+            "order": 9
+          },
+
+          {
+            "name": "navigator",
+            "match": "^@navigator",
+            "order": 10
+          },
+          {
+            "name": "constants",
+            "match": "^@constants",
+            "order": 11
+          },
+          {
+            "name": "internal modules",
+            "match": "^@app.*",
+            "order": 12
+          },
+          {
+            "name": "containers",
+            "match": "^@containers",
+            "order": 13
+          },
+          {
+            "name": "presentation",
+            "match": "^@presentation",
+            "order": 14
+          },
+          {
+            "name": "node_modules",
+            "match": "./*",
+            "order": 15
+          },
+          {
+            "name": "relative dir",
+            "match": "^[.].*",
+            "order": 16
+          }
+        ]
+      }
+    ]
+  },
+  "rulesDirectory": []
+}
