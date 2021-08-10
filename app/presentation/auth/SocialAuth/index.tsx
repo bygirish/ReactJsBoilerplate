@@ -4,7 +4,7 @@ const SocialAuthFB = () => {
 
     return (
         <div>
-            {'FB'}
+            {'Complete FB UI'}
         </div>
     )
 }
@@ -13,7 +13,7 @@ const SocialAuthLn = () => {
 
     return (
         <div>
-            {'Ln'}
+            {'Complete Ln UI'}
         </div>
     )
 }
