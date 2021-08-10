@@ -4,7 +4,7 @@ const SocialAuthFB = () => {
 
     return (
         <div>
-            {'Complete FB UI'}
+            {'Complete FB UI again'}
         </div>
     )
 }
