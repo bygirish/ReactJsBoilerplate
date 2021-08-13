@@ -15,554 +15,554 @@ import {
 
 // Example Pages
 //Test changes
-import PagesLogin from './pages/Admin/PagesLogin';
-import RouteSwitch from 'pages/Admin/Utilities/Transportation/RouteSwitch';
+import PagesLogin from '@pages/Admin/PagesLogin';
+import RouteSwitch from '@pages/Admin/Utilities/Transportation/RouteSwitch';
 
 
-const Dashboard = lazy(() => import('./pages/Admin/Dashboard'));
-const Calendar = lazy(() => import('./pages/Admin/Calendar'));
+const Dashboard = lazy(() => import('@pages/Admin/Dashboard'));
+const Calendar = lazy(() => import('@pages/Admin/Calendar'));
 const UserManagement = lazy(() =>
-  import('./pages/Admin/UserManagement')
+  import('@pages/Admin/UserManagement')
 );
 const ViewStudentInfoProfile = lazy(() =>
-  import('./pages/Admin/Demography/ViewStudentInfoProfile.js')
+  import('@pages/Admin/Demography/ViewStudentInfoProfile.js')
 );
 const AddRole = lazy(() =>
-  import('./pages/Admin/UserManagement/AddRole.js')
+  import('@pages/Admin/UserManagement/AddRole.js')
 );
 const Demography = lazy(() =>
-  import('./pages/Admin/Demography')
+  import('@pages/Admin/Demography')
 );
 
 const StudentDemography = lazy(() =>
-  import('./pages/Admin/Demography/Student.js')
+  import('@pages/Admin/Demography/Student.js')
 );
 const AddStudent = lazy(() =>
-  import('./pages/Admin/Demography/AddStudent.js')
+  import('@pages/Admin/Demography/AddStudent.js')
 );
 const UploadStudents = lazy(() =>
-  import('./pages/Admin/Demography/UploadStudents.js')
+  import('@pages/Admin/Demography/UploadStudents.js')
 );
 const ViewStudent = lazy(() =>
-  import('./pages/Admin/Demography/ViewStudent.js')
+  import('@pages/Admin/Demography/ViewStudent.js')
 );
 const ViewStudentInfo = lazy(() =>
-  import('./pages/Admin/Demography/ViewStudentInfo.js')
+  import('@pages/Admin/Demography/ViewStudentInfo.js')
 );
 const StaffDemography = lazy(() =>
-  import('./pages/Admin/Demography/Staff.js')
+  import('@pages/Admin/Demography/Staff.js')
 );
 const AddStaff = lazy(() =>
-  import('./pages/Admin/Demography/AddStaff.js')
+  import('@pages/Admin/Demography/AddStaff.js')
 );
 const ViewStaff= lazy(() =>
-  import('./pages/Admin/Demography/ViewStaff.js')
+  import('@pages/Admin/Demography/ViewStaff.js')
 );
 const ViewStaffInfo = lazy(() =>
-  import('./pages/Admin/Demography/ViewStaffInfo.js')
+  import('@pages/Admin/Demography/ViewStaffInfo.js')
 );
 const ManagementDemography = lazy(() =>
-  import('./pages/Admin/Demography/Management.js')
+  import('@pages/Admin/Demography/Management.js')
 );
 const AddManagement = lazy(() =>
-  import('./pages/Admin/Demography/AddManagement.js')
+  import('@pages/Admin/Demography/AddManagement.js')
 );
 const ViewManagement= lazy(() =>
-  import('./pages/Admin/Demography/ViewManagement.js')
+  import('@pages/Admin/Demography/ViewManagement.js')
 );
 const ViewManagementInfo = lazy(() =>
-  import('./pages/Admin/Demography/ViewManagementInfo.js')
+  import('@pages/Admin/Demography/ViewManagementInfo.js')
 );
 const AlumniDemography = lazy(() =>
-  import('./pages/Admin/Demography/Alumni.js')
+  import('@pages/Admin/Demography/Alumni.js')
 );
 const AddAlumni = lazy(() =>
-  import('./pages/Admin/Demography/AddAlumni.js')
+  import('@pages/Admin/Demography/AddAlumni.js')
 );
 const ViewAlumni= lazy(() =>
-  import('./pages/Admin/Demography/ViewAlumni.js')
+  import('@pages/Admin/Demography/ViewAlumni.js')
 );
 const ViewAlumniInfo = lazy(() =>
-  import('./pages/Admin/Demography/ViewAlumniInfo.js')
+  import('@pages/Admin/Demography/ViewAlumniInfo.js')
 );
 const Preadmission = lazy(() =>
-  import('./pages/Admin/Demography/Preadmission.js')  
+  import('@pages/Admin/Demography/Preadmission.js')  
 );
 const PreadmissionSettings = lazy(() => 
-  import('./pages/Admin/Demography/PreadmissionSettings.js')
+  import('@pages/Admin/Demography/PreadmissionSettings.js')
 );
 const ApplicationAssessment = lazy(() =>
-  import('./pages/Admin/Demography/ApplicationAssessment.js') 
+  import('@pages/Admin/Demography/ApplicationAssessment.js') 
 );
 const AcademicSection = lazy(() =>
-  import('./pages/Admin/AcademicSection')
+  import('@pages/Admin/AcademicSection')
 );
 const Assignments = lazy(() =>
-  import('./pages/Admin/AcademicSection/Assignments.js')
+  import('@pages/Admin/AcademicSection/Assignments.js')
 );
 const AddViewAssignments = lazy(() =>
-  import('./pages/Admin/AcademicSection/AddViewAssignment.js')
+  import('@pages/Admin/AcademicSection/AddViewAssignment.js')
 );
 const Dailydiary = lazy(() =>
-  import('./pages/Admin/AcademicSection/Dailydiary.js')
+  import('@pages/Admin/AcademicSection/Dailydiary.js')
 );
 const AddViewDailydiary = lazy(() =>
-  import('./pages/Admin/AcademicSection/AddViewDailydiary.js')
+  import('@pages/Admin/AcademicSection/AddViewDailydiary.js')
 );
 const Circulars = lazy(() =>
-  import('./pages/Admin/AcademicSection/Circulars.js')
+  import('@pages/Admin/AcademicSection/Circulars.js')
 );
 const AddViewCircular = lazy(() =>
-  import('./pages/Admin/AcademicSection/AddViewCircular.js')
+  import('@pages/Admin/AcademicSection/AddViewCircular.js')
 );
 const Projects = lazy(() =>
-  import('./pages/Admin/AcademicSection/Projects.js')
+  import('@pages/Admin/AcademicSection/Projects.js')
 );
 const AddViewProject = lazy(() =>
-  import('./pages/Admin/AcademicSection/AddViewProject.js')
+  import('@pages/Admin/AcademicSection/AddViewProject.js')
 );
 const FinancialSection = lazy(() =>
-  import('./pages/Admin/FinancialSection')
+  import('@pages/Admin/FinancialSection')
 );
 const FeeIncome = lazy(() =>
-  import('./pages/Admin/FinancialSection/FeeIncome.js')
+  import('@pages/Admin/FinancialSection/FeeIncome.js')
 );
 const FeeMaster = lazy(() =>
-  import('./pages/Admin/FinancialSection/FeeMaster.js')
+  import('@pages/Admin/FinancialSection/FeeMaster.js')
 );
 const AcademicFeeMaster = lazy(() =>
-  import('./pages/Admin/FinancialSection/AcademicFeeMaster.js')
+  import('@pages/Admin/FinancialSection/AcademicFeeMaster.js')
 );
 const NonAcademicFeeMaster = lazy(() =>
-  import('./pages/Admin/FinancialSection/NonAcademicFeeMaster.js')
+  import('@pages/Admin/FinancialSection/NonAcademicFeeMaster.js')
 );
 const AcademicFeeCollect = lazy(() =>
-  import('./pages/Admin/FinancialSection/AcademicFeeCollect.js')
+  import('@pages/Admin/FinancialSection/AcademicFeeCollect.js')
 );
 const NonAcademicFeeCollect = lazy(() =>
-  import('./pages/Admin/FinancialSection/NonAcademicFeeCollect.js')
+  import('@pages/Admin/FinancialSection/NonAcademicFeeCollect.js')
 );
 const ExpenseManagement = lazy(() =>
-  import('./pages/Admin/ExpenseManagement')
+  import('@pages/Admin/ExpenseManagement')
 );
 const ExpenseCategories = lazy(() =>
-  import('./pages/Admin/ExpenseManagement/ExpenseCategories.js')
+  import('@pages/Admin/ExpenseManagement/ExpenseCategories.js')
 );
 const AddViewExpense = lazy(() =>
-  import('./pages/Admin/ExpenseManagement/AddViewExpense.js')
+  import('@pages/Admin/ExpenseManagement/AddViewExpense.js')
 );
 const Gallery = lazy(() =>
-  import('./pages/Admin/AcademicSection/Gallery')
+  import('@pages/Admin/AcademicSection/Gallery')
 );
 const AddGallery = lazy(() =>
-  import('./pages/Admin/AcademicSection/AddGallery.js')
+  import('@pages/Admin/AcademicSection/AddGallery.js')
 );
 const EditGallery = lazy(() =>
-  import('./pages/Admin/AcademicSection/EditGallery.js')
+  import('@pages/Admin/AcademicSection/EditGallery.js')
 );
 const ViewGallery = lazy(() =>
-  import('./pages/Admin/AcademicSection/ViewGallery.js')
+  import('@pages/Admin/AcademicSection/ViewGallery.js')
 );
 const ExamAttendance = lazy(() =>
-  import('./pages/Admin/AcademicSection/ExamAttendance.js')
+  import('@pages/Admin/AcademicSection/ExamAttendance.js')
 );
 const MarkExamAttendance = lazy(() =>
-  import('./pages/Admin/AcademicSection/MarkExamAttendance.js')
+  import('@pages/Admin/AcademicSection/MarkExamAttendance.js')
 );
 const Attendance = lazy(() =>
-  import('./pages/Admin/AcademicSection/Attendance')
+  import('@pages/Admin/AcademicSection/Attendance')
 );
 const CourseManagement = lazy(() =>
-  import('./pages/Admin/AcademicSection/CourseManagement.js')
+  import('@pages/Admin/AcademicSection/CourseManagement.js')
 );
 const AddViewWorkdone = lazy(() =>
-  import('./pages/Admin/AcademicSection/AddViewWorkdone.js')
+  import('@pages/Admin/AcademicSection/AddViewWorkdone.js')
 );
 const AttendanceSettings = lazy(() =>
-  import('./pages/Admin/AcademicSection/AttendanceSettings.js')
+  import('@pages/Admin/AcademicSection/AttendanceSettings.js')
 );
 const AttendanceHistory = lazy(() =>
-  import('./pages/Admin/AcademicSection/AttendanceHistory.js')
+  import('@pages/Admin/AcademicSection/AttendanceHistory.js')
 );
 const MarkAttendance = lazy(() =>
-  import('./pages/Admin/AcademicSection/MarkAttendance.js')
+  import('@pages/Admin/AcademicSection/MarkAttendance.js')
 );
 const OfflineExamAssessment = lazy(() =>
-  import('./pages/Admin/AcademicSection/OfflineExamAssessment')
+  import('@pages/Admin/AcademicSection/OfflineExamAssessment')
 );
 const AddResult = lazy(() =>
-  import('./pages/Admin/AcademicSection/AddResult')
+  import('@pages/Admin/AcademicSection/AddResult')
 );
 const ViewResult = lazy(() =>
-  import('./pages/Admin/AcademicSection/ViewResult')
+  import('@pages/Admin/AcademicSection/ViewResult')
 );
 const OnlineExam = lazy(() =>
-  import('./pages/Admin/AcademicSection/OnlineExam.js')
+  import('@pages/Admin/AcademicSection/OnlineExam.js')
 );
 const ViewExams = lazy(() =>
-  import('./pages/Admin/AcademicSection/ViewExams.js')
+  import('@pages/Admin/AcademicSection/ViewExams.js')
 );
 const ViewResults = lazy(() =>
-  import('./pages/Admin/AcademicSection/ViewResults.js')
+  import('@pages/Admin/AcademicSection/ViewResults.js')
 );
 const QuestionBank = lazy(() =>
-  import('./pages/Admin/AcademicSection/QuestionBank.js')
+  import('@pages/Admin/AcademicSection/QuestionBank.js')
 );
 const AddViewQuestions = lazy(() =>
-  import('./pages/Admin/AcademicSection/AddViewQuestions.js')
+  import('@pages/Admin/AcademicSection/AddViewQuestions.js')
 );
 const AddViewQuestionpaper = lazy(() =>
-  import('./pages/Admin/AcademicSection/AddViewQuestionpaper.js')
+  import('@pages/Admin/AcademicSection/AddViewQuestionpaper.js')
 );
 const SchedulePlanner = lazy(() =>
-  import('./pages/Admin/SchedulePlanner')
+  import('@pages/Admin/SchedulePlanner')
 );
 const Holiday = lazy(() =>
-  import('./pages/Admin/SchedulePlanner/Holidays.js')
+  import('@pages/Admin/SchedulePlanner/Holidays.js')
 );
 const AddViewHoliday = lazy(() =>
-  import('./pages/Admin/SchedulePlanner/AddViewHoliday.js')
+  import('@pages/Admin/SchedulePlanner/AddViewHoliday.js')
 );
 const Events = lazy(() =>
-  import('./pages/Admin/SchedulePlanner/Events.js')
+  import('@pages/Admin/SchedulePlanner/Events.js')
 );
 const AddViewEvent = lazy(() =>
-  import('./pages/Admin/SchedulePlanner/AddViewEvent.js')
+  import('@pages/Admin/SchedulePlanner/AddViewEvent.js')
 );
 const Timetable = lazy(() =>
-  import('./pages/Admin/SchedulePlanner/Timetable.js')
+  import('@pages/Admin/SchedulePlanner/Timetable.js')
 );
 const TimetableSettings = lazy(() =>
-  import('./pages/Admin/SchedulePlanner/TimetableSettings.js')
+  import('@pages/Admin/SchedulePlanner/TimetableSettings.js')
 );
 
 const StudentTimatable = lazy(() =>
-  import('./pages/Admin/SchedulePlanner/StudentTimatable.js')
+  import('@pages/Admin/SchedulePlanner/StudentTimatable.js')
 );
 const StaffTimatable = lazy(() =>
-  import('./pages/Admin/SchedulePlanner/StaffTimetable.js')
+  import('@pages/Admin/SchedulePlanner/StaffTimetable.js')
 );
 const Communication = lazy(() =>
-  import('./pages/Admin/Communication')
+  import('@pages/Admin/Communication')
 );
 const MessageCenter = lazy(() =>
-  import('./pages/Admin/Communication/MessageCenter.js')
+  import('@pages/Admin/Communication/MessageCenter.js')
 );
 const SendViewMessage = lazy(() =>
-  import('./pages/Admin/Communication/SendViewMessage.js')
+  import('@pages/Admin/Communication/SendViewMessage.js')
 );
 const Feedback = lazy(() =>
-  import('./pages/Admin/Communication/Feedback.js')
+  import('@pages/Admin/Communication/Feedback.js')
 );
 const Utilities = lazy(() =>
-  import('./pages/Admin/Utilities')
+  import('@pages/Admin/Utilities')
 );
 const DocumentManagement = lazy(() =>
-  import('./pages/Admin/Utilities/DocumentManagement.js')
+  import('@pages/Admin/Utilities/DocumentManagement.js')
 );
 const AddViewDocket = lazy(() =>
-  import('./pages/Admin/Utilities/AddViewDocket.js')
+  import('@pages/Admin/Utilities/AddViewDocket.js')
 );
 const LeaveManagement = lazy(() =>
-  import('./pages/Admin/Utilities/LeaveManagement.js')
+  import('@pages/Admin/Utilities/LeaveManagement.js')
 );
 const LibraryManagement = lazy(() =>
-  import('./pages/Admin/Utilities/LibraryManagement.js')
+  import('@pages/Admin/Utilities/LibraryManagement.js')
 );
 const LibrarySettings = lazy(() =>
-  import('./pages/Admin/Utilities/LibrarySettings.js')
+  import('@pages/Admin/Utilities/LibrarySettings.js')
 );
 const AddViewBooks = lazy(() =>
-  import('./pages/Admin/Utilities/AddViewBooks.js')
+  import('@pages/Admin/Utilities/AddViewBooks.js')
 );
 const BookCirculation = lazy(() =>
-  import('./pages/Admin/Utilities/BookCirculation.js')
+  import('@pages/Admin/Utilities/BookCirculation.js')
 );
 const ApplyLeave = lazy(() =>
-  import('./pages/Admin/Utilities/ApplyLeave.js')
+  import('@pages/Admin/Utilities/ApplyLeave.js')
 );
 const LeaveTypes = lazy(() =>
-  import('./pages/Admin/Utilities/LeaveTypes.js')
+  import('@pages/Admin/Utilities/LeaveTypes.js')
 );
 const ViewApplication = lazy(() =>
-  import('./pages/Admin/Utilities/ViewApplication.js')
+  import('@pages/Admin/Utilities/ViewApplication.js')
 );
 const CSTR = lazy(() =>
-  import('./pages/Admin/CSTR')
+  import('@pages/Admin/CSTR')
 );
 const ClassMaster = lazy(() =>
-  import('./pages/Admin/CSTR/ClassMaster.js')
+  import('@pages/Admin/CSTR/ClassMaster.js')
 );
 
 const TeacherMaster = lazy(() =>
-  import('./pages/Admin/CSTR/TeacherMaster.js')
+  import('@pages/Admin/CSTR/TeacherMaster.js')
 );
 const SubjectMaster = lazy(() =>
-  import('./pages/Admin/CSTR/SubjectMaster.js')
+  import('@pages/Admin/CSTR/SubjectMaster.js')
 );
 const RoomMaster = lazy(() =>
-  import('./pages/Admin/CSTR/RoomMaster.js')
+  import('@pages/Admin/CSTR/RoomMaster.js')
 );
 const ExamSchedule = lazy(() =>
-  import('./pages/Admin/ExamSchedule')
+  import('@pages/Admin/ExamSchedule')
 );
 const ExamMaster = lazy(() =>
-  import('./pages/Admin/ExamSchedule/ExamMaster.js')
+  import('@pages/Admin/ExamSchedule/ExamMaster.js')
 );
 const ExamTimetable = lazy(() =>
-  import('./pages/Admin/ExamSchedule/ExamTimetable.js')
+  import('@pages/Admin/ExamSchedule/ExamTimetable.js')
 );
 const Hostel = lazy(() => 
-  import('./pages/Admin/Utilities/Hostel')
+  import('@pages/Admin/Utilities/Hostel')
 );
 const RoomFeeMaster = lazy(() => 
-  import('./pages/Admin/Utilities/Hostel/RoomFeeMaster')
+  import('@pages/Admin/Utilities/Hostel/RoomFeeMaster')
 );
 const ViewRoomFeeMaster = lazy(() => 
-  import('./pages/Admin/Utilities/Hostel/RoomFeeMaster/ViewRoomFee.js')
+  import('@pages/Admin/Utilities/Hostel/RoomFeeMaster/ViewRoomFee.js')
 );
 const EditRoomFeeMaster = lazy(() => 
-  import('./pages/Admin/Utilities/Hostel/RoomFeeMaster/EditRoomFee.js')
+  import('@pages/Admin/Utilities/Hostel/RoomFeeMaster/EditRoomFee.js')
 );
 const ViewFoodFeeMaster = lazy(() => 
-  import('./pages/Admin/Utilities/Hostel/RoomFeeMaster/ViewFoodFee.js')
+  import('@pages/Admin/Utilities/Hostel/RoomFeeMaster/ViewFoodFee.js')
 );
 const EditFoodFeeMaster = lazy(() => 
-  import('./pages/Admin/Utilities/Hostel/RoomFeeMaster/EditFoodFee.js')
+  import('@pages/Admin/Utilities/Hostel/RoomFeeMaster/EditFoodFee.js')
 );
 const HostelEntryExit = lazy(() => 
-  import('./pages/Admin/Utilities/Hostel/HostelEntryExit')
+  import('@pages/Admin/Utilities/Hostel/HostelEntryExit')
 );
 const DailyActivities = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/DailyActivities')
+  import('@pages/Admin/Utilities/Hostel/DailyActivities')
 );
 const StaffAllocation = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/StaffAllocation')
+  import('@pages/Admin/Utilities/Hostel/StaffAllocation')
 );
 const AddRoomToFloor = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/RoomFeeMaster/AddRooms.js')
+  import('@pages/Admin/Utilities/Hostel/RoomFeeMaster/AddRooms.js')
 );
 const ViewBlockRooms = lazy(() => 
-  import('./pages/Admin/Utilities/Hostel/RoomFeeMaster/ViewBlockRooms.js')
+  import('@pages/Admin/Utilities/Hostel/RoomFeeMaster/ViewBlockRooms.js')
 );
 const StudentRoomAllocation = lazy(() => 
-  import('./pages/Admin/Utilities/Hostel/HostelEntryExit/StudentRoomAllocation.js')
+  import('@pages/Admin/Utilities/Hostel/HostelEntryExit/StudentRoomAllocation.js')
 )
 const StudentJoiningRoom = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/HostelEntryExit/StudentRoomJoining.js')
+  import('@pages/Admin/Utilities/Hostel/HostelEntryExit/StudentRoomJoining.js')
 );
 const HostelEntryRecipt = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/HostelEntryExit/HostelEntryRecipt.js')
+  import('@pages/Admin/Utilities/Hostel/HostelEntryExit/HostelEntryRecipt.js')
 );
 const StafftoHostelAllocation = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/StaffAllocation/StafftoHostelAllocation.js')
+  import('@pages/Admin/Utilities/Hostel/StaffAllocation/StafftoHostelAllocation.js')
 );
 const ViewHostelLeaveApplication = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/DailyActivities/ViewHostelLeaveApplication.js')
+  import('@pages/Admin/Utilities/Hostel/DailyActivities/ViewHostelLeaveApplication.js')
 );
 const ViewVisitorRequest = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/DailyActivities/ViewVisitorRequest.js')
+  import('@pages/Admin/Utilities/Hostel/DailyActivities/ViewVisitorRequest.js')
 );
 const ViewGuestRequest = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/DailyActivities/ViewGuestRequest.js')
+  import('@pages/Admin/Utilities/Hostel/DailyActivities/ViewGuestRequest.js')
 );
 const ViewReallocationRequest = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/DailyActivities/ViewReallocationRequest.js')
+  import('@pages/Admin/Utilities/Hostel/DailyActivities/ViewReallocationRequest.js')
 );
 const ViewRostering = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/StaffAllocation/ViewRostering.js')
+  import('@pages/Admin/Utilities/Hostel/StaffAllocation/ViewRostering.js')
 );
 const IndividualHosttile = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/IndividualHostellite.js')
+  import('@pages/Admin/Utilities/Hostel/IndividualHostellite.js')
 );
 const GetRostering = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/StaffAllocation/GetRostering.js')
+  import('@pages/Admin/Utilities/Hostel/StaffAllocation/GetRostering.js')
 );
 const ViewReallocationHistory = lazy(() =>
-  import('./pages/Admin/Utilities/Hostel/DailyActivities/ViewReallocationHistory.js')
+  import('@pages/Admin/Utilities/Hostel/DailyActivities/ViewReallocationHistory.js')
 );
 const VisitorsManagement = lazy(() => 
-  import('./pages/Admin/Utilities/VisitorsManagement')
+  import('@pages/Admin/Utilities/VisitorsManagement')
 );
 const WaitingVisitors = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/WaitingVisitors.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/WaitingVisitors.js')
 );
 const TodaysVisitors = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/TodaysVisitors.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/TodaysVisitors.js')
 );
 const WeeklyVisitor = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/WeeklyVisitor.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/WeeklyVisitor.js')
 );
 const ScheduledVisitors = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/ScheduledVisitors.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/ScheduledVisitors.js')
 );
 const AddVisitorsData = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/AddVisitorsData.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/AddVisitorsData.js')
 );
 const AddScheduledData = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/AddScheduledData.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/AddScheduledData.js')
 );
 const VisitorsReport = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/VisitorsReport.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/VisitorsReport.js')
 );
 const ViewVisitDetils = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/ViewVisitDetils.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/ViewVisitDetils.js')
 );
 const ViewAllVisitors = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/ViewAllVisitors.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/ViewAllVisitors.js')
 );
 const EditScheduledVisit = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/EditScheduledVisit.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/EditScheduledVisit.js')
 );
 const CancelScheduleVisit = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/CancelScheduleVisit.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/CancelScheduleVisit.js')
 );
 const EditVisitDetail = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/EditVisitDetail.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/EditVisitDetail.js')
 );
 const CancelVisit = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/CancelVisit.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/CancelVisit.js')
 );
 const CheckInVisit = lazy(() =>
-  import('./pages/Admin/Utilities/VisitorsManagement/CheckInVisit.js')
+  import('@pages/Admin/Utilities/VisitorsManagement/CheckInVisit.js')
 );
 
 const Transportation = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation')
+  import('@pages/Admin/Utilities/Transportation')
 );
 const Certificates = lazy(() =>
-  import('./pages/Admin/Certificates')
+  import('@pages/Admin/Certificates')
 );
 const TransferCertificate = lazy(() =>
-  import('./pages/Admin/Certificates/TransferCertificate.js')
+  import('@pages/Admin/Certificates/TransferCertificate.js')
 );
 const StudyCertificate = lazy(() =>
-  import('./pages/Admin/Certificates/StudyCertificate.js')
+  import('@pages/Admin/Certificates/StudyCertificate.js')
 );
 
 const Reports = lazy(() =>
-  import('./pages/Admin/Reports') 
+  import('@pages/Admin/Reports') 
 );
 const Settings = lazy(() =>
-  import('./pages/Admin/Settings')
+  import('@pages/Admin/Settings')
 );
 const AcademicSettings = lazy(() =>
-  import('./pages/Admin/Settings/AcademicCalendar.js')
+  import('@pages/Admin/Settings/AcademicCalendar.js')
 );
 const Organization = lazy(() =>
-  import('./pages/Admin/Settings/Organization.js')
+  import('@pages/Admin/Settings/Organization.js')
 );
 const AcademicYear = lazy(() =>
-  import('./pages/Admin/Settings/AcademicYear.js')
+  import('@pages/Admin/Settings/AcademicYear.js')
 );
 const MasterData = lazy(() =>
-  import('./pages/Admin/Settings/MasterData.js')
+  import('@pages/Admin/Settings/MasterData.js')
 );
 const MasterDataBoard = lazy(() =>
-  import('./pages/Admin/Settings/MasterDataBoard.js')
+  import('@pages/Admin/Settings/MasterDataBoard.js')
 );
 const MasterDataCourse = lazy(() =>
-  import('./pages/Admin/Settings/MasterDataCourse.js')
+  import('@pages/Admin/Settings/MasterDataCourse.js')
 );
 const MasterDataStream = lazy(() =>
-  import('./pages/Admin/Settings/MasterDataStream.js')
+  import('@pages/Admin/Settings/MasterDataStream.js')
 );
 const MasterDataCombination = lazy(() =>
-  import('./pages/Admin/Settings/MasterDataCombination.js')
+  import('@pages/Admin/Settings/MasterDataCombination.js')
 );
 const Institutions = lazy(() =>
-  import('./pages/Admin/Settings/Institutions.js')
+  import('@pages/Admin/Settings/Institutions.js')
 );
 const AddInstitutions = lazy(() =>
-  import('./pages/Admin/Settings/AddInstitutions.js')
+  import('@pages/Admin/Settings/AddInstitutions.js')
 );
 const ViewInstitutions = lazy(() =>
-  import('./pages/Admin/Settings/ViewInstitutions.js')
+  import('@pages/Admin/Settings/ViewInstitutions.js')
 );
 const Stream = lazy(() =>
-  import('./pages/Admin/Settings/Stream.js')
+  import('@pages/Admin/Settings/Stream.js')
 );
 const Board = lazy(() =>
-  import('./pages/Admin/Settings/Board.js')
+  import('@pages/Admin/Settings/Board.js')
 );
 const FleetManagement = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/FleetManagement/index.js')
+  import('@pages/Admin/Utilities/Transportation/FleetManagement/index.js')
 );
 const FuelExpenses = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/FleetManagement/FuelExpenses.js')
+  import('@pages/Admin/Utilities/Transportation/FleetManagement/FuelExpenses.js')
 );
 const VehicleMaintainance = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/FleetManagement/VehicleMaintainance.js')
+  import('@pages/Admin/Utilities/Transportation/FleetManagement/VehicleMaintainance.js')
 );
 
 const Roastering = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/FleetManagement/Roastering.js')
+  import('@pages/Admin/Utilities/Transportation/FleetManagement/Roastering.js')
 );
 const RoleMaster = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/FleetManagement/RoleMaster.js')
+  import('@pages/Admin/Utilities/Transportation/FleetManagement/RoleMaster.js')
 );
 const StaffOverview = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/FleetManagement/StaffOverview.js')
+  import('@pages/Admin/Utilities/Transportation/FleetManagement/StaffOverview.js')
 );
 const StaffToRoll = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/FleetManagement/StaffToRoll.js')
+  import('@pages/Admin/Utilities/Transportation/FleetManagement/StaffToRoll.js')
 );
 const StaffToVehicle = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/FleetManagement/StaffToVehicle.js')
+  import('@pages/Admin/Utilities/Transportation/FleetManagement/StaffToVehicle.js')
 );
 const VehicleMaster = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/FleetManagement/VehicleMaster.js')
+  import('@pages/Admin/Utilities/Transportation/FleetManagement/VehicleMaster.js')
 );
 const RouteFeeMaster = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/RouteFeeMaster/index.js')
+  import('@pages/Admin/Utilities/Transportation/RouteFeeMaster/index.js')
 );
 const RouteMapStops = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/RouteFeeMaster/RouteMapStops.js')
+  import('@pages/Admin/Utilities/Transportation/RouteFeeMaster/RouteMapStops.js')
 );
 const StudentRouteBus = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/StudentRouteBus/index.js')
+  import('@pages/Admin/Utilities/Transportation/StudentRouteBus/index.js')
 );
 const StudentRoute = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/StudentRouteBus/StudentRoute.js')
+  import('@pages/Admin/Utilities/Transportation/StudentRouteBus/StudentRoute.js')
 );
 const TransportationRouteSwitch = lazy(() =>
-  import('./pages/Admin/Utilities/Transportation/RouteSwitch/index.js')
+  import('@pages/Admin/Utilities/Transportation/RouteSwitch/index.js')
 );
 const AddPreadmission = lazy(() =>
-  import('./pages/Admin/Demography/AddPreadmission.js')
+  import('@pages/Admin/Demography/AddPreadmission.js')
 );
 const ViewApplicationAssessments = lazy(() =>
-  import('./pages/Admin/Demography/ViewApplicationAssessments.js')
+  import('@pages/Admin/Demography/ViewApplicationAssessments.js')
 );
 const PreadmissionStudentInfo = lazy(() => 
-  import('./pages/Admin/Demography/PreadmissionStudentInfo.js') 
+  import('@pages/Admin/Demography/PreadmissionStudentInfo.js') 
 );
 const AcademicReports = lazy(() => 
-  import('./pages/Admin/Reports/AcademicReports.js')
+  import('@pages/Admin/Reports/AcademicReports.js')
 );
 const AttendanceReport = lazy(() =>
-  import('./pages/Admin/Reports/AttendanceReport.js') 
+  import('@pages/Admin/Reports/AttendanceReport.js') 
 );
 const StaffAttendanceReport = lazy(() => 
-  import('./pages/Admin/Reports/StaffAttendanceReport.js') 
+  import('@pages/Admin/Reports/StaffAttendanceReport.js') 
 );
 const TcReport = lazy(() => 
-  import('./pages/Admin/Reports/TcReport.js')
+  import('@pages/Admin/Reports/TcReport.js')
 );
 const StudentDailyAbsentReport = lazy(() => 
-  import('./pages/Admin/Reports/StudentDailyAbsentReport.js')
+  import('@pages/Admin/Reports/StudentDailyAbsentReport.js')
 );
 const StaffDailyAbsentReport = lazy(() => 
-  import('./pages/Admin/Reports/StaffDailyAbsentReport.js')
+  import('@pages/Admin/Reports/StaffDailyAbsentReport.js')
 );
 const UploadStaffs = lazy(() => 
-  import('./pages/Admin/Demography/UploadStaffs.js') 
+  import('@pages/Admin/Demography/UploadStaffs.js') 
 );
 const LiveClass = lazy(() =>
-  import('./pages/Admin/LiveClass')
+  import('@pages/Admin/LiveClass')
 );
 const Editpreadmission = lazy(() =>
-  import('./pages/Admin/Demography/Editpreadmission.js')
+  import('@pages/Admin/Demography/Editpreadmission.js')
 );
 
 

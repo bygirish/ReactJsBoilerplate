@@ -5,7 +5,7 @@ import 'react-table-6/react-table.css';
 import {Animated} from "react-animated-css";
 import CloseIcon from '@material-ui/icons/Close';
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../../utils/MapStateDispatchProps.js';
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
 import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
 import {
@@ -13,8 +13,8 @@ import {
   KeyboardTimePicker,
   KeyboardDatePicker,
 } from '@material-ui/pickers';
-import  "../../../../../assets/custom.scss";
-import Service from '../../../../../utils/Service';
+import  "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../../config';
 import moment from "moment";
 import Moment from 'moment';

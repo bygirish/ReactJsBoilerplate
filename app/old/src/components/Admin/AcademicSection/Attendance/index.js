@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import clsx from 'clsx';
 import SweetAlert from "react-bootstrap-sweetalert";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  "../../../../assets/custom.scss";
+import  "@assetss/custom.scss";
 import {Animated} from "react-animated-css";
 import { PageTitle } from '../../../../layout-components';
 import {Dialog,Grid,Switch,FormControlLabel,IconButton,Typography,AppBar,Toolbar,Card,CardContent,Fab,TextField,Button,Avatar,List,ListItem,Slide,FormControl,Checkbox} from '@material-ui/core';
@@ -10,10 +10,10 @@ import { withRouter } from 'react-router-dom';
 import CloseIcon from '@material-ui/icons/Close';
 import NavigateNext from "@material-ui/icons/NavigateNext";
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js'
-import Service from '../../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 import EditIcon from '@material-ui/icons/Edit';
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import ReactTable from 'react-table-6';
 import 'react-table-6/react-table.css';
 import moment from "moment";

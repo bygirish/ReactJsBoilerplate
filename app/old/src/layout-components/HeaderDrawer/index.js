@@ -17,10 +17,10 @@ import {
   Divider
 } from '@material-ui/core';
 
-import avatar1 from '../../assets/images/avatars/avatar1.jpg';
-import avatar2 from '../../assets/images/avatars/avatar2.jpg';
-import avatar6 from '../../assets/images/avatars/avatar6.jpg';
-import avatar7 from '../../assets/images/avatars/avatar7.jpg';
+import avatar1 from '@assetss/images/avatars/avatar1.jpg';
+import avatar2 from '@assetss/images/avatars/avatar2.jpg';
+import avatar6 from '@assetss/images/avatars/avatar6.jpg';
+import avatar7 from '@assetss/images/avatars/avatar7.jpg';
 
 import MenuOpenRoundedIcon from '@material-ui/icons/MenuOpenRounded';
 

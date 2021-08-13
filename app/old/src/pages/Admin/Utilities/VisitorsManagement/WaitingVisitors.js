@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
-import Dashboard from '../../../../components/Admin/Utilities/VisitorsManagement/WaitingVisitorManagement.js';
+import Dashboard from '@components/Admin/Utilities/VisitorsManagement/WaitingVisitorManagement.js';
 function WaitingVisitorManagement(props) {
   return (
     <Fragment>

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import AddViewDailydiary from '../../../components/Admin/AcademicSection/AddViewCircular';
+import AddViewDailydiary from '@components/Admin/AcademicSection/AddViewCircular';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class Circulars extends React.Component {
   constructor(props) {

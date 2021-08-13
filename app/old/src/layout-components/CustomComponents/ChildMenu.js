@@ -3,7 +3,7 @@ import {Animated} from "react-animated-css";
 import {Grid,Card,Fab} from '@material-ui/core';
 // @material-ui/icons
 import NavigateNext from "@material-ui/icons/NavigateNext";
-import  "../../assets/custom.scss";
+import  "@assetss/custom.scss";
 export default class ChildMenu extends React.Component {
    
   constructor(props) {

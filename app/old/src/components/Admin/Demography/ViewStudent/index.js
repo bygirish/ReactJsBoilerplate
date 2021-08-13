@@ -13,22 +13,22 @@ import NavigateNext from "@material-ui/icons/NavigateNext";
 import ViewIcon from "@material-ui/icons/Visibility";
 import Add from "@material-ui/icons/Add";
 import Remove from "@material-ui/icons/Remove";
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import { ExampleWrapperSimple } from '../../../../layout-components';
 import StandardSectionsList from "../../../../layout-components/CustomComponents/StandardSectionsList.js";
 import Autocomplete1 from "../../../../layout-components/CustomComponents/AutoComplete.js";
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
-import defaultImage from "../../../../assets/images/placeholder.jpg";
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
+import defaultImage from "@assetss/images/placeholder.jpg";
 import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
 import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker
 } from '@material-ui/pickers';
-import "../../../../assets/custom.scss";
-import Service from '../../../../utils/Service';
+import "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../config';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import PerfectScrollbar from 'react-perfect-scrollbar';

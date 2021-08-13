@@ -4,7 +4,7 @@ import {
   Drawer, Toolbar
 } from '@material-ui/core';
 
-import "../../../assets/custom.scss";
+import "@assetss/custom.scss";
 export const tables = {
     cols: [
       {

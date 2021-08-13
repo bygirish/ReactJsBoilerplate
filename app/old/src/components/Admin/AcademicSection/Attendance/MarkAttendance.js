@@ -18,9 +18,9 @@ import { ExampleWrapperSimple } from '../../../../layout-components';
 import StandardSectionsList from "../../../../layout-components/CustomComponents/StandardSectionsList.js";
 import Autocomplete from "../../../../layout-components/CustomComponents/AutoComplete.js"; 
 import { connect } from 'react-redux';
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
-import defaultImage from  "../../../../assets/images/placeholder.jpg";
+import { AuthHelper } from '@utils/AuthHelper.js';
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
+import defaultImage from  "@assetss/images/placeholder.jpg";
 import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
 import moment from "moment";
@@ -28,8 +28,8 @@ import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker
 } from '@material-ui/pickers';
-import  "../../../../assets/custom.scss";
-import Service from '../../../../utils/Service';
+import  "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../config';
 
 function filterCaseInsensitive(filter, row) {

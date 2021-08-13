@@ -35,13 +35,13 @@ import EditIcon from '@material-ui/icons/Edit';
 
 import DashboardTwoToneIcon from '@material-ui/icons/DashboardTwoTone';
 
-import avatar1 from '../../assets/images/avatars/avatar1.jpg';
+import avatar1 from '@assetss/images/avatars/avatar1.jpg';
 
-import avatar2 from '../../assets/images/avatars/avatar2.jpg';
+import avatar2 from '@assetss/images/avatars/avatar2.jpg';
 
-import avatar6 from '../../assets/images/avatars/avatar6.jpg';
-import avatar7 from '../../assets/images/avatars/avatar7.jpg';
-import hero1 from '../../assets/images/hero-bg/hero-1.jpg';
+import avatar6 from '@assetss/images/avatars/avatar6.jpg';
+import avatar7 from '@assetss/images/avatars/avatar7.jpg';
+import hero1 from '@assetss/images/hero-bg/hero-1.jpg';
 import FileCopyIcon from '@material-ui/icons/FileCopyOutlined';
 import SaveIcon from '@material-ui/icons/Save';
 import CloseIcon from '@material-ui/icons/Close';
@@ -49,7 +49,7 @@ import PrintIcon from '@material-ui/icons/Print';
 import ShareIcon from '@material-ui/icons/Share';
 import SlidepanelNav from "../CustomComponents/SlidepanelNav.js"; 
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../utils/MapStateDispatchProps.js';
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import SpeedDial from '@material-ui/lab/SpeedDial';
 import SpeedDialIcon from '@material-ui/lab/SpeedDialIcon';

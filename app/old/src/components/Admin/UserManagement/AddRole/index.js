@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  "../../../../assets/custom.scss";
+import  "@assetss/custom.scss";
 
 import {
   Grid,
@@ -16,8 +16,8 @@ import {
 import { withRouter } from 'react-router-dom';
 
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js'
-import Service from '../../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 
 import EditIcon from '@material-ui/icons/Edit';
 

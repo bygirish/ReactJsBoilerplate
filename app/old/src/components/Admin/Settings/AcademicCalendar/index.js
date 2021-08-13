@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import "../../../../assets/custom.scss";
+import "@assetss/custom.scss";
 import { Animated } from "react-animated-css";
 import {
   FormControl, FormControlLabel, Grid, Radio, Dialog, Card, TextField, InputAdornment, Button, DialogContent, DialogActions, FormLabel, MenuItem,
@@ -13,12 +13,12 @@ import { Editor } from 'react-draft-wysiwyg';
 import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 import { EditorState, convertToRaw, ContentState } from 'draft-js';
 import { withRouter } from 'react-router-dom';
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import Add from "@material-ui/icons/Add";
 import Remove from "@material-ui/icons/Remove";
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js'
-import Service from '../../../../utils/Service';
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 import Config from '../../../../config';
 import moment from "moment";
 import DateFnsUtils from '@date-io/date-fns';

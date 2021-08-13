@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import AddViewDocket from '../../../components/Admin/Utilities/AddViewDocket';
+import AddViewDocket from '@components/Admin/Utilities/AddViewDocket';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class DocumentManagement extends React.Component {
   constructor(props) {

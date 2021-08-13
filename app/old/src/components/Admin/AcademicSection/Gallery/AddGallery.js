@@ -2,7 +2,7 @@ import React, { Fragment, createRef } from 'react';
 import clsx from 'clsx';
 import SweetAlert from "react-bootstrap-sweetalert";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  "../../../../assets/custom.scss";
+import  "@assetss/custom.scss";
 import {Animated} from "react-animated-css";
 import OutlinedDiv from "../../../../layout-components/CustomComponents/OutlinedDiv.js"; 
 import { PageTitle } from '../../../../layout-components';
@@ -12,8 +12,8 @@ import { withRouter } from 'react-router-dom';
 import CloseIcon from '@material-ui/icons/Close';
 import NavigateNext from "@material-ui/icons/NavigateNext";
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js'
-import Service from '../../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 import StandardSectionsList from "../../../../layout-components/CustomComponents/StandardSectionsList.js";
 import EditIcon from '@material-ui/icons/Edit';
 import ReactTable from 'react-table-6';
@@ -21,7 +21,7 @@ import 'react-table-6/react-table.css';
 import moment from "moment";
 import Config from '../../../../config';
 import DateFnsUtils from '@date-io/date-fns';
-import defaultImage from  "../../../../assets/images/image_placeholder.jpg";
+import defaultImage from  "@assetss/images/image_placeholder.jpg";
 import {
   MuiPickersUtilsProvider,
   KeyboardTimePicker,

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import {Dialog,Grid,Chip,FormControlLabel,FormControl,IconButton,Typography,AppBar,Divider,Card,CardContent,Fab,CardActions,TextField,Button,ButtonGroup,Box,Avatar,List,ListItem,Slide,Checkbox,RadioGroup,Radio,InputAdornment,MenuItem,Tooltip} from '@material-ui/core';
-import Service from '../../utils/Service';
+import Service from '@utils/Service';
 
 export default class StandardSections extends React.Component {
    

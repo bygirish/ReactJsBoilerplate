@@ -11,12 +11,12 @@ import CloseIcon from '@material-ui/icons/Close';
 import Remove from "@material-ui/icons/Remove";
 import ViewIcon from "@material-ui/icons/Visibility";
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
-import Genres from '../../../../components/Admin/Utilities/LibraryManagement/Genres.js';
-import Authors from '../../../../components/Admin/Utilities/LibraryManagement/Authors.js';
-import Publishers from '../../../../components/Admin/Utilities/LibraryManagement/Publishers.js';
-import Languages from '../../../../components/Admin/Utilities/LibraryManagement/Languages.js';
-import Penalty from '../../../../components/Admin/Utilities/LibraryManagement/Penalty.js';
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
+import Genres from '@components/Admin/Utilities/LibraryManagement/Genres.js';
+import Authors from '@components/Admin/Utilities/LibraryManagement/Authors.js';
+import Publishers from '@components/Admin/Utilities/LibraryManagement/Publishers.js';
+import Languages from '@components/Admin/Utilities/LibraryManagement/Languages.js';
+import Penalty from '@components/Admin/Utilities/LibraryManagement/Penalty.js';
 import 'date-fns';
 import moment from "moment";
 import DateFnsUtils from '@date-io/date-fns';
@@ -24,8 +24,8 @@ import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker
 } from '@material-ui/pickers';
-import  "../../../../assets/custom.scss";
-import Service from '../../../../utils/Service';
+import  "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../config';
 
 function filterCaseInsensitive(filter, row) {

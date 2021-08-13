@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import AddViewWorkdone from '../../../components/Admin/AcademicSection/AddViewWorkdone';
+import AddViewWorkdone from '@components/Admin/AcademicSection/AddViewWorkdone';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class Workdone extends React.Component {
   constructor(props) {

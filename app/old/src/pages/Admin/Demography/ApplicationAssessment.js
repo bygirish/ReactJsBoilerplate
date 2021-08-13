@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import ApplicationAssessment from '../../../components/Admin/Demography/ApplicationAssessment';
+import ApplicationAssessment from '@components/Admin/Demography/ApplicationAssessment';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class Preadmission extends React.Component {
   constructor(props) {

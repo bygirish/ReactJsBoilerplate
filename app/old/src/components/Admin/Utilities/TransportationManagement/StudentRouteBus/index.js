@@ -21,16 +21,16 @@ import Edit from "@material-ui/icons/Edit";
 import ViewIcon from "@material-ui/icons/Visibility";
 import StandardSectionsList from "../../../../../layout-components/CustomComponents/StandardSectionsList.js";
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../../utils/MapStateDispatchProps.js';
-import defaultImage from "../../../../../assets/images/image_placeholder.jpg";
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
+import defaultImage from "@assetss/images/image_placeholder.jpg";
 import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
 import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker
 } from '@material-ui/pickers';
-import "../../../../../assets/custom.scss";
-import Service from '../../../../../utils/Service';
+import "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../../config';
 import moment from "moment";
 import { AlignRight } from 'react-feather';

@@ -16,11 +16,11 @@ import Remove from "@material-ui/icons/Remove";
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 import { ExampleWrapperSimple } from '../../../../layout-components';
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import Autocomplete from "../../../../layout-components/CustomComponents/AutoComplete.js";
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
-import defaultImage from  "../../../../assets/images/placeholder.jpg";
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
+import defaultImage from  "@assetss/images/placeholder.jpg";
 import 'date-fns';
 import  { Redirect } from 'react-router-dom'
 import DateFnsUtils from '@date-io/date-fns';
@@ -28,8 +28,8 @@ import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker
 } from '@material-ui/pickers';
-import  "../../../../assets/custom.scss";
-import Service from '../../../../utils/Service';
+import  "@assetss/custom.scss";
+import Service from '@utils/Service';
 import moment from "moment";
 
 const fileInput = React.createRef();

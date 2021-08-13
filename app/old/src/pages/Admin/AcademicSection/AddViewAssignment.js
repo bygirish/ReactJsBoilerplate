@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import AddViewAssignment from '../../../components/Admin/AcademicSection/AddViewAssignment';
+import AddViewAssignment from '@components/Admin/AcademicSection/AddViewAssignment';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class Assignments extends React.Component {
   constructor(props) {

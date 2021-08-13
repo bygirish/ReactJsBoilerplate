@@ -2,7 +2,7 @@
 
 import axios from 'axios'; 
 import { handleResponse, handleError } from './response'; 
-import { getToken } from '../../../utils/Common';
+import { getToken } from '@utils/Common';
 
 
 // Define your api url from any source.

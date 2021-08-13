@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import AddViewProject from '../../../components/Admin/AcademicSection/AddViewProject';
+import AddViewProject from '@components/Admin/AcademicSection/AddViewProject';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class Projects extends React.Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import AddViewDailydiary from '../../../components/Admin/AcademicSection/AddViewDailydiary';
+import AddViewDailydiary from '@components/Admin/AcademicSection/AddViewDailydiary';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class DailyDiary extends React.Component {
   constructor(props) {

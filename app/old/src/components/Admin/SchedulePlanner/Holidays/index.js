@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
-import  "../../../../assets/custom.scss";
+import  "@assetss/custom.scss";
 import {Animated} from "react-animated-css";
 import { PageTitle } from '../../../../layout-components';
 import {Dialog,Grid,Slide,Button} from '@material-ui/core';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js'
-import Service from '../../../../utils/Service';
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import 'react-table-6/react-table.css';
 import i18n from '../../../../i18n';
 

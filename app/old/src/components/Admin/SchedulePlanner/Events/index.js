@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 import clsx from 'clsx';
-import  "../../../../assets/custom.scss";
+import  "@assetss/custom.scss";
 import {Animated} from "react-animated-css";
 import { PageTitle } from '../../../../layout-components';
 import {Dialog,Grid,Switch,FormControlLabel,IconButton,Typography,AppBar,Toolbar,Card,CardContent,Fab,TextField,Button,Avatar,List,ListItem,Slide,FormControl,Checkbox} from '@material-ui/core';
 import { withRouter } from 'react-router-dom';
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js'
-import Service from '../../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="left" ref={ref} {...props} />;

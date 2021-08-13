@@ -2,7 +2,7 @@ import { createMuiTheme } from '@material-ui/core';
 import typography from './typography';
 
 /* eslint-disable import/no-unresolved, import/no-webpack-loader-syntax */
-import vars from '!!sass-vars-to-js-loader!../assets/core/_variables-mui.scss';
+import vars from '!!sass-vars-to-js-loader!@assetss/core/_variables-mui.scss';
 
 const MuiTheme = createMuiTheme({
   palette: {

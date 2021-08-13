@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import AddViewDailydiary from '../../../components/Admin/SchedulePlanner/AddViewEvent';
+import AddViewDailydiary from '@components/Admin/SchedulePlanner/AddViewEvent';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class Events extends React.Component {
   constructor(props) {

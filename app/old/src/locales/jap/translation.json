@@ -1,8 +1,8 @@
 {
-  "Login":{
-  	"Login":"ログインする",
-  	"Next":"次",
-  	"Phlogin":"電話/ うん私D /メール",
-  	"Password":"パスワード"
+  "Login": {
+    "Login": "ログインする",
+    "Next": "次",
+    "Phlogin": "電話/ うん私D /メール",
+    "Password": "パスワード"
   }
 }

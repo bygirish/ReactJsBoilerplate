@@ -13,13 +13,13 @@ import {
 
 import AvatarGroup from '@material-ui/lab/AvatarGroup';
 
-import avatar1 from '../../../assets/images/avatars/avatar1.jpg';
-import avatar2 from '../../../assets/images/avatars/avatar2.jpg';
-import avatar3 from '../../../assets/images/avatars/avatar3.jpg';
-import avatar4 from '../../../assets/images/avatars/avatar4.jpg';
-import avatar5 from '../../../assets/images/avatars/avatar5.jpg';
-import avatar6 from '../../../assets/images/avatars/avatar6.jpg';
-import avatar7 from '../../../assets/images/avatars/avatar7.jpg';
+import avatar1 from '@assetss/images/avatars/avatar1.jpg';
+import avatar2 from '@assetss/images/avatars/avatar2.jpg';
+import avatar3 from '@assetss/images/avatars/avatar3.jpg';
+import avatar4 from '@assetss/images/avatars/avatar4.jpg';
+import avatar5 from '@assetss/images/avatars/avatar5.jpg';
+import avatar6 from '@assetss/images/avatars/avatar6.jpg';
+import avatar7 from '@assetss/images/avatars/avatar7.jpg';
 
 export default function LivePreviewExample() {
   return (

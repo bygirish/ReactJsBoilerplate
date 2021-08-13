@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import StudentTimetable from '../../../components/Admin/SchedulePlanner/StaffTimetable';
+import StudentTimetable from '@components/Admin/SchedulePlanner/StaffTimetable';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class Timetable extends React.Component {
   constructor(props) {

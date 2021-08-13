@@ -25,7 +25,7 @@ import navItems from '../Sidebar/navItems';
 
 import { NavLink as RouterLink } from 'react-router-dom';
 
-import projectLogo from '../../assets/images/react.svg';
+import projectLogo from '@assetss/images/react.svg';
 import {
   Settings,
   CloudDrizzle,

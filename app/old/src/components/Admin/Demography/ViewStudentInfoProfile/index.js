@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Stepper from '@material-ui/core/Stepper';
 import Step from '@material-ui/core/Step';
 import StepButton from '@material-ui/core/StepButton';
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import NavigateNext from "@material-ui/icons/NavigateNext";
 import ViewIcon from "@material-ui/icons/Visibility";
 import Add from "@material-ui/icons/Add";
@@ -20,8 +20,8 @@ import { ExampleWrapperSimple } from '../../../../layout-components';
 import StandardSectionsList from "../../../../layout-components/CustomComponents/StandardSectionsList.js";
 import Autocomplete from "../../../../layout-components/CustomComponents/AutoComplete.js";
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
-import defaultImage from "../../../../assets/images/placeholder.jpg";
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
+import defaultImage from "@assetss/images/placeholder.jpg";
 import 'date-fns';
 import ViewStaffInfo from "../ViewStaffInfo";
 import DateFnsUtils from '@date-io/date-fns';
@@ -29,8 +29,8 @@ import {
     MuiPickersUtilsProvider,
     KeyboardDatePicker
 } from '@material-ui/pickers';
-import "../../../../assets/custom.scss";
-import Service from '../../../../utils/Service';
+import "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../config';
 import moment from "moment";
 

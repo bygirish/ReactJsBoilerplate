@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import SendViewMessage from '../../../components/Admin/Communication/SendViewMessage';
+import SendViewMessage from '@components/Admin/Communication/SendViewMessage';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class MessageCenter extends React.Component {
   constructor(props) {

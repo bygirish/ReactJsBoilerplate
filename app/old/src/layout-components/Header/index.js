@@ -11,7 +11,7 @@ import {
   setSidebarToggle,
   setSidebarToggleMobile
 } from '../../reducers/ThemeOptions';
-import projectLogo from '../../assets/images/react.svg';
+import projectLogo from '@assetss/images/react.svg';
 
 import HeaderLogo from '../../layout-components/HeaderLogo';
 import HeaderDots from '../../layout-components/HeaderDots';

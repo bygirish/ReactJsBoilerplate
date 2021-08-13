@@ -7,9 +7,9 @@ import { IconButton, Box } from '@material-ui/core';
 
 import { connect } from 'react-redux';
 
-// import projectLogo from '../../assets/images/egenius_logo.png';
+// import projectLogo from '@assetss/images/egenius_logo.png';
 
-import {mapStateToProps , mapDispatchToPros} from '../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 import Config from '../../config';
 import i18n from '../../i18n';
 

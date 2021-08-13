@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Config from '../config';
 import axios from 'axios';
-import { getToken } from '../utils/Common';
+import { getToken } from '@utils/Common';
 class Service extends Component {
   apiCall(method, postData) {
     let token = getToken();

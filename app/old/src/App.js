@@ -4,8 +4,8 @@ import { Router } from 'react-router-dom';
 import configureStore from './config/configureStore';
 import { Provider } from 'react-redux';
 import Routes from './Routes';
-import ScrollToTop from './utils/ScrollToTop';
-import './assets/base.scss';
+import ScrollToTop from '@utils/ScrollToTop';
+import '@assetss/base.scss';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 import { library } from '@fortawesome/fontawesome-svg-core';

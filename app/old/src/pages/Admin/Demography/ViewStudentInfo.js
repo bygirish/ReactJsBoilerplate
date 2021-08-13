@@ -3,10 +3,10 @@ import React, { Fragment } from 'react';
 import { PageTitle } from '../../../layout-components';
 import { Grid,IconButton,Typography,AppBar,Toolbar,Dialog,Slide } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
-import ViewStudentInfo from '../../../components/Admin/Demography/ViewStudentInfo';
+import ViewStudentInfo from '@components/Admin/Demography/ViewStudentInfo';
 import { connect } from 'react-redux';
 import {Animated} from "react-animated-css";
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="left" ref={ref} {...props} />;

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import clsx from 'clsx';
-import  "../../../assets/custom.scss";
+import  "@assetss/custom.scss";
 import {Animated} from "react-animated-css";
 import {FormControlLabel,Grid,Drawer,Box,Dialog,Typography,AppBar,Toolbar,Card,CardActions,IconButton,TextField,Button,Radio,List,ListItem,Divider,CardContent,Checkbox} from '@material-ui/core';
 import { Calendar, Views, dateFnsLocalizer } from 'react-big-calendar';
@@ -15,10 +15,10 @@ import parse from 'date-fns/parse';
 import startOfWeek from 'date-fns/startOfWeek';
 import getDay from 'date-fns/getDay';   
 import { withRouter } from 'react-router-dom';
-import { AuthHelper } from '../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js'
-import Service from '../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 import ReactTable from 'react-table-6';
 import moment from "moment";
 import 'date-fns';

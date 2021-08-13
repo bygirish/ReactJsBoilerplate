@@ -12,8 +12,8 @@ import {
   Tooltip
 } from '@material-ui/core';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js';
-import Service from '../../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
+import Service from '@utils/Service';
 import Config from '../../../../config';
 
 class Section2 extends React.Component {

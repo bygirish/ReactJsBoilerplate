@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import { List, Typography } from '@material-ui/core';
 
-import useRouter from 'utils/useRouter';
+import useRouter from '@utils/useRouter';
 import SidebarMenuListItem from './SidebarMenuListItem';
 
 const SidebarMenuList = props => {

@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { Grid, IconButton, Box, Badge, Card } from '@material-ui/core';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js';
-import Service from '../../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
+import Service from '@utils/Service';
 import CountUp from 'react-countup';
 import Chart from 'react-apexcharts';
 import Circle from 'react-circle';

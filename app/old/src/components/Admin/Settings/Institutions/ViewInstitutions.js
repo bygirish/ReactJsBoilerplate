@@ -17,13 +17,13 @@ import Remove from "@material-ui/icons/Remove";
 import CloseIcon from '@material-ui/icons/Close';
 import Edit from "@material-ui/icons/Edit";
 import ViewIcon from "@material-ui/icons/Visibility";
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
 import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
-import defaultImage from "../../../../assets/images/placeholder.jpg";
-// import logo from "../../../assets/images/egenius_logo.png";
+import defaultImage from "@assetss/images/placeholder.jpg";
+// import logo from "@assetss/images/egenius_logo.png";
 
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
@@ -32,8 +32,8 @@ import {
     MuiPickersUtilsProvider,
     KeyboardDatePicker
 } from '@material-ui/pickers';
-// import "../../../assets/custom.scss";
-import Service from '../../../../utils/Service';
+// import "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../config';
 import moment from "moment";
 import { withStyles } from '@material-ui/core/styles';

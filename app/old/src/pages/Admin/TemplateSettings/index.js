@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import TemplateSettings from '../../../components/Admin/TemplateSettings';  
+import TemplateSettings from '@components/Admin/TemplateSettings';  
 export default function Calendar() {
   return (
     <Fragment>

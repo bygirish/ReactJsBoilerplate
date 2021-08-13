@@ -22,8 +22,8 @@ import {
 import CloseIcon from '@material-ui/icons/Close';
 import MenuOpenRoundedIcon from '@material-ui/icons/MenuOpenRounded';
 import ListIcon from '@material-ui/icons/List';
-import  "../../assets/custom.scss";
-import Service from '../../utils/Service';
+import  "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../config';
 
 export default class SlidepanelNav extends React.Component {

@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 import { withRouter } from 'react-router-dom';
 import { PageTitle } from '../../../layout-components';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
-import Dashboard from '../../../components/Admin/ExamSchedule'; 
+import Dashboard from '@components/Admin/ExamSchedule'; 
 function ExamSchedule(props) {
   return (
     <Fragment>

@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import SweetAlert from "react-bootstrap-sweetalert";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ChipInput from 'material-ui-chip-input';
-import "../../../../assets/custom.scss";
+import "@assetss/custom.scss";
 import { Animated } from "react-animated-css";
 import { Badge, Grid, Switch, FormControlLabel, ButtonGroup, Dialog, CardActions, Toolbar, Card, CardContent, Fab, TextField, Button, Avatar, List, ListItem, Slide, FormControl, Box, Tooltip, AppBar, IconButton, Typography } from '@material-ui/core';
 import { withRouter } from 'react-router-dom';
@@ -11,8 +11,8 @@ import CloseIcon from '@material-ui/icons/Close';
 import CheckCircleOutline from "@material-ui/icons/CheckCircleOutline";
 import NavigateNext from "@material-ui/icons/NavigateNext";
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js'
-import Service from '../../../../utils/Service';
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 import EditIcon from '@material-ui/icons/Edit';
 import ReactTable from 'react-table-6';
 import moment from 'moment';

@@ -15,12 +15,12 @@ import Add from "@material-ui/icons/Add";
 import Remove from "@material-ui/icons/Remove";  
 import Edit from "@material-ui/icons/Edit";
 import ViewIcon from "@material-ui/icons/Visibility";  
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import StandardSectionsList from "../../../../layout-components/CustomComponents/StandardSectionsList.js"; 
 import OutlinedDiv from "../../../../layout-components/CustomComponents/OutlinedDiv.js"; 
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
-import defaultImage from  "../../../../assets/images/image_placeholder.jpg";
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
+import defaultImage from  "@assetss/images/image_placeholder.jpg";
 import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
 import {
@@ -28,8 +28,8 @@ import {
   KeyboardTimePicker,
   KeyboardDatePicker
 } from '@material-ui/pickers';
-import  "../../../../assets/custom.scss";
-import Service from '../../../../utils/Service';
+import  "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../config';
 import moment from "moment";
 

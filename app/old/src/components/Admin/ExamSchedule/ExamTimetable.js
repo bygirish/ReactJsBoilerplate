@@ -10,7 +10,7 @@ import Add from "@material-ui/icons/Add";
 import Remove from "@material-ui/icons/Remove";
 import ViewIcon from "@material-ui/icons/Visibility"; 
 import ChipInput from 'material-ui-chip-input';
-import  "../../../assets/custom.scss";
+import  "@assetss/custom.scss";
 import {Animated} from "react-animated-css";
 import {Checkbox,Grid,Switch,FormControlLabel,ButtonGroup,Dialog,CardActions,Toolbar,Card,Radio,Avatar,TextField,Button,Paper,Chip,Drawer,Slide,FormControl,Box,Tooltip,IconButton,Typography,AppBar, List,ListItem,Divider,InputAdornment} from '@material-ui/core';
 import { withRouter } from 'react-router-dom';
@@ -19,12 +19,12 @@ import Edit from "@material-ui/icons/Edit";
 import CheckCircleOutline from "@material-ui/icons/CheckCircleOutline";
 import NavigateNext from "@material-ui/icons/NavigateNext";
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js'
-import Service from '../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 import EditIcon from '@material-ui/icons/Edit';
 import ReactTable from 'react-table-6';
 import 'react-table-6/react-table.css';
-import { AuthHelper } from '../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import moment from "moment";
 import Config from '../../../config';
 import DateFnsUtils from '@date-io/date-fns';

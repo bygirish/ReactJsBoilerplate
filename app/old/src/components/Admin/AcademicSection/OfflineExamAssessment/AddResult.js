@@ -9,12 +9,12 @@ import CloseIcon from '@material-ui/icons/Close';
 import Edit from "@material-ui/icons/Edit";
 import ViewIcon from "@material-ui/icons/Visibility";  
 import StandardSectionsList from "../../../../layout-components/CustomComponents/StandardSectionsList.js";
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
 import 'date-fns';
-import  "../../../../assets/custom.scss";
-import Service from '../../../../utils/Service';
+import  "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../config';
 import moment from "moment";
 

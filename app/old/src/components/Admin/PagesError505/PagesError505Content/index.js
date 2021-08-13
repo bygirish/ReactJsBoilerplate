@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { Grid, IconButton, Button, Tooltip } from '@material-ui/core';
 
-import svgImage8 from '../../../../assets/images/illustrations/505.svg';
+import svgImage8 from '@assetss/images/illustrations/505.svg';
 
 import { NavLink as RouterLink } from 'react-router-dom';
 

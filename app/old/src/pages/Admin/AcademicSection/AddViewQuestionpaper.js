@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import AddViewQuestionpaper from '../../../components/Admin/AcademicSection/QuestionBank/AddViewQuestionpaper';
+import AddViewQuestionpaper from '@components/Admin/AcademicSection/QuestionBank/AddViewQuestionpaper';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class QuestionBank extends React.Component {
   constructor(props) {

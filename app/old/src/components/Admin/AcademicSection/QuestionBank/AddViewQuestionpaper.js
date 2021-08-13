@@ -19,18 +19,18 @@ import NavigateNext from "@material-ui/icons/NavigateNext";
 import StandardSectionsList from "../../../../layout-components/CustomComponents/StandardSectionsList.js";
 import OutlinedDiv from "../../../../layout-components/CustomComponents/OutlinedDiv.js"; 
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
-import defaultImage from  "../../../../assets/images/image_placeholder.jpg";
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
+import defaultImage from  "@assetss/images/image_placeholder.jpg";
 import 'date-fns';
 import DateFnsUtils from '@date-io/date-fns';
 import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker
 } from '@material-ui/pickers';
-import  "../../../../assets/custom.scss";
-import Service from '../../../../utils/Service';
+import  "@assetss/custom.scss";
+import Service from '@utils/Service';
 import Config from '../../../../config';
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import i18n from '../../../../i18n';
 import moment from "moment";
 

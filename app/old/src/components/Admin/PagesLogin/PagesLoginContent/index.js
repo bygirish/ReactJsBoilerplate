@@ -14,16 +14,16 @@ import {
 } from '@material-ui/core';
 
 import { Link,withRouter } from 'react-router-dom';
-import { setToken } from '../../../../utils/Common';
+import { setToken } from '@utils/Common';
 import MuiAlert from '@material-ui/lab/Alert';
 
 import MailOutlineTwoToneIcon from '@material-ui/icons/MailOutlineTwoTone';
 import LockTwoToneIcon from '@material-ui/icons/LockTwoTone';
 
-import svgImage9 from '../../../../assets/images/illustrations/login.svg';
+import svgImage9 from '@assetss/images/illustrations/login.svg';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js'
-import Service from '../../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 import i18n from '../../../../i18n';
 import Config from '../../../../config';
 import { th } from 'date-fns/esm/locale';

@@ -11,7 +11,7 @@ import SidebarHeader from '../../layout-components/SidebarHeader';
 import SidebarUserbox from '../../layout-components/SidebarUserbox';
 import SidebarMenu from '../../layout-components/SidebarMenu';
 import SidebarFooter from '../../layout-components/SidebarFooter';
-import Service from '../../utils/Service';
+import Service from '@utils/Service';
 import { setUserData , getUserData , updateUserData , removeUserData, changeOrganization, getModulePermission} from '../../actions/';
 import navItems from './navItems';
 import BarChartIcon from '@material-ui/icons/BarChart';

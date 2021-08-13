@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import clsx from 'clsx';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 import {
   Avatar,
   Box,
 } from '@material-ui/core';
 
-// import avatar2 from '../../assets/images/avatars/avatar2.jpg';
+// import avatar2 from '@assetss/images/avatars/avatar2.jpg';
 
 const SidebarUserbox = props => {
   const { sidebarToggle, sidebarHover } = props;

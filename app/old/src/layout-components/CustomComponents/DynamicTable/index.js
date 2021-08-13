@@ -10,7 +10,7 @@ import {
     Dialog, Grid, Switch, FormControlLabel, FormControl, IconButton, Typography, AppBar, Divider, Card, CardContent, Fab, CardActions, TextField, Button, ButtonGroup, Box, Avatar, List, ListItem, Slide, Checkbox, RadioGroup, Radio, InputAdornment, MenuItem, Tooltip,
     Drawer, Toolbar
   } from '@material-ui/core';
-import "../../../assets/custom.scss";
+import "@assetss/custom.scss";
 // require("jquery-datepicker");
 const tables = require("./table-data.js");
 

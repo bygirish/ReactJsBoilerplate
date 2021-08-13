@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import clsx from 'clsx';
 import SweetAlert from "react-bootstrap-sweetalert";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  "../../../../assets/custom.scss";
+import  "@assetss/custom.scss";
 import {Animated} from "react-animated-css";
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { PageTitle } from '../../../../layout-components';
@@ -16,10 +16,10 @@ import Edit from "@material-ui/icons/Edit";
 import ViewIcon from "@material-ui/icons/Visibility";
 import CloseIcon from '@material-ui/icons/Close';
 import NavigateNext from "@material-ui/icons/NavigateNext";
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../../utils/MapStateDispatchProps.js'
-import Service from '../../../../utils/Service';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js'
+import Service from '@utils/Service';
 import EditIcon from '@material-ui/icons/Edit';
 import ReactTable from 'react-table-6';
 import moment from "moment";

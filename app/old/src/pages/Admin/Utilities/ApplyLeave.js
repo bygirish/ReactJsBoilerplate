@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import ApplyLeave from '../../../components/Admin/Utilities/ApplyLeave';
+import ApplyLeave from '@components/Admin/Utilities/ApplyLeave';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 class LeaveManagement extends React.Component {
   constructor(props) {

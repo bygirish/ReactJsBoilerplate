@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { connect } from 'react-redux';
-import {mapStateToProps , mapDispatchToPros} from '../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 import {
   Avatar,
   Box,
@@ -15,7 +15,7 @@ import {
   Divider
 } from '@material-ui/core';
 
-import avatar4 from '../../assets/images/avatars/avatar4.jpg';
+import avatar4 from '@assetss/images/avatars/avatar4.jpg';
 import { withStyles } from '@material-ui/core/styles';
 
 const StyledBadge = withStyles({

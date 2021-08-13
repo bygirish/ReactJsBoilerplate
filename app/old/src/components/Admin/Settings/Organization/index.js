@@ -15,20 +15,20 @@ import CheckCircleOutline from "@material-ui/icons/CheckCircleOutline";
 import CloseIcon from '@material-ui/icons/Close';
 import Remove from "@material-ui/icons/Remove";
 import ViewIcon from "@material-ui/icons/Visibility";
-import { AuthHelper } from '../../../../utils/AuthHelper.js';
+import { AuthHelper } from '@utils/AuthHelper.js';
 import { connect } from 'react-redux';
-import { mapStateToProps, mapDispatchToPros } from '../../../../utils/MapStateDispatchProps.js';
+import { mapStateToProps, mapDispatchToPros } from '@utils/MapStateDispatchProps.js';
 import 'date-fns';
 import moment from "moment";
 import ViewInstitutions from '../Institutions/ViewInstitutions';
-import defaultImage from "../../../../assets/images/placeholder.jpg";
+import defaultImage from "@assetss/images/placeholder.jpg";
 // import defaultImage from  "@assets/images/placeholder.jpg";
 import DateFnsUtils from '@date-io/date-fns';
 import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker
 } from '@material-ui/pickers';
-import "../../../../assets/custom.scss";
+import "@assetss/custom.scss";
 import Service from '@utils/Service.js';
 import Config from '@src/config';
 import { withStyles } from '@material-ui/core/styles';

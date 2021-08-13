@@ -2,10 +2,10 @@
 import React, { Fragment } from 'react';
 import { Grid,IconButton,Typography,AppBar,Toolbar,Dialog,Slide } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
-import AddApplication from '../../../components/Admin/Demography/AddApplication';
+import AddApplication from '@components/Admin/Demography/AddApplication';
 import { connect } from 'react-redux';
 import {Animated} from "react-animated-css";
-import {mapStateToProps , mapDispatchToPros} from '../../../utils/MapStateDispatchProps.js';
+import {mapStateToProps , mapDispatchToPros} from '@utils/MapStateDispatchProps.js';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="left" ref={ref} {...props} />;
