@@ -1,18 +1,17 @@
-// import React, { Suspense, lazy } from "react";
-// import { connect } from "react-redux";
-// import { withTranslation } from "react-i18next";
-// import {
-//   BrowserRouter as Router,
-//   Route,
-//   Switch,
-//   Redirect,
-// } from "react-router-dom";
-// import "antd/dist/antd.css";
-// import { BrowserScrollService } from "@utils/BrowserScrollService";
-// import { ConnectedRouter } from "connected-react-router";
-// import history from "@utils/history";
-// import { Routes } from "@navigator/Routes";
-// import { isAuthenticatedSelector } from "@common/redux/auth/selectors";
+import React, { Suspense, lazy } from "react";
+import { connect } from "react-redux";
+import { withTranslation } from "react-i18next";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
+import "antd/dist/antd.css";
+import { BrowserScrollService } from "@utils/BrowserScrollService";
+import { ConnectedRouter } from "connected-react-router";
+import history from "@utils/history";
+import { Routes } from "@navigator/Routes";
 // import { RoutePrivate } from "@router/RoutePrivate";
 // import RoutePublic from "@router/RoutePublic";
 
@@ -33,94 +32,100 @@
 // const TnC = lazy(() => import("@containers/Auth/TnCContainer"));
 
 
+// Home
+const HomePage = lazy(() => import("@containers/Home/HomePageContainer"));
 
-// import "antd/dist/antd.css";
-// import "./../App.scss";
+import Spinner from "@components/atoms/Spinner";
 
-// interface IProps {
-//   primaryLanguage?: any;
-//   isAuthenticated: boolean;
-//   location: any;
-// }
 
-// interface IState {}
+interface IProps {
+  location?: any;
+}
 
-// const setParentRef = (pRef: any) => {
-//   BrowserScrollService.init(pRef);
-// };
+interface IState {}
 
-// export const mapStateToProps = (state: any) => {
-//   return {
-//     isAuthenticated: isAuthenticatedSelector(state),
-//     location: state.router.location,
-//   };
-// };
+const setParentRef = (pRef: any) => {
+  BrowserScrollService.init(pRef);
+};
 
-// export const mapDispatchToProps = (dispatch: any) => {
-//   return {};
-// };
+export const mapStateToProps = (state: any) => {
+  return {
+    location: state.router.location,
+  };
+};
 
-// export class WFRouter extends React.Component<IProps, IState> {
-//   scrollRef: any;
+export const mapDispatchToProps = (dispatch: any) => {
+  return {};
+};
 
-//   constructor(props) {
-//     super(props);
-//     this.scrollRef = React.createRef();
-//   }
+class Router extends React.Component<IProps, IState> {
+  scrollRef: any;
 
-//   public render() {
-//     const { location } = this.props;
-//     let { isAuthenticated } = this.props;
+  constructor(props) {
+    super(props);
+    this.scrollRef = React.createRef();
+  }
 
-//     let RouteWrapper: any;
-//     if (isAuthenticated) {
-//       RouteWrapper = RoutePrivate;
-//     } else {
-//       RouteWrapper = RoutePublic;
-//     }
+  public render() {
+    const { location } = this.props;
 
-//     return (
-//       <ConnectedRouter history={history}>
-//         <Suspense fallback={<Spinner showFullPage />}>
-//           <Switch>
+    const isAuthenticated  = false;
 
-//             <Route
-//               exact
-//               path={Routes.Auth.login}
-//               render={(props) => <LoginNew {...props} />}
-//             />
+    let RouteWrapper: any;
+    // if (isAuthenticated) {
+    //   RouteWrapper = RoutePrivate;
+    // } else {
+    //   RouteWrapper = RoutePublic;
+    // }
 
-//             <Route
-//               exact
-//               path={Routes.Auth.resetPassword}
-//               render={(props) => <ResetPassword {...props} />}
-//             />
-//             <Route
-//               exact
-//               path={Routes.Auth.changePassword}
-//               render={(props) => <ChangePassword {...props} />}
-//             />
-//             <Route
-//               exact
-//               path={Routes.Auth.forgotPassword}
-//               render={(props) => <ForgotPassword {...props} />}
-//             />
+    return (
+      <ConnectedRouter history={history}>
+        <Suspense fallback={<Spinner isFullPage />}>
+          <Switch>
 
-//             <Redirect to={Routes.PageNotFound.notFound} />
-//           </Switch>
-//         </Suspense>
-//       </ConnectedRouter>
-//     );
-//   }
+            <Route
+              exact
+              path={Routes.Home.default}
+              render={(props) => <HomePage {...props} />}
+            />
 
-//   public componentDidMount = () => {
-//     const reactNode = this.scrollRef.current;
-//     setParentRef(reactNode);
-//   };
-// }
+            {/* <Route
+              exact
+              path={Routes.Auth.login}
+              render={(props) => <LoginNew {...props} />}
+            />
 
-// // @ts-ignore
-// export default connect(
-//   mapStateToProps,
-//   mapDispatchToProps
-// )(withTranslation()(WFRouter));
+            <Route
+              exact
+              path={Routes.Auth.resetPassword}
+              render={(props) => <ResetPassword {...props} />}
+            />
+            <Route
+              exact
+              path={Routes.Auth.changePassword}
+              render={(props) => <ChangePassword {...props} />}
+            />
+            <Route
+              exact
+              path={Routes.Auth.forgotPassword}
+              render={(props) => <ForgotPassword {...props} />}
+            /> */}
+
+            <Redirect to={Routes.PageNotFound.notFound} />
+          </Switch>
+        </Suspense>
+      </ConnectedRouter>
+    );
+  }
+
+  public componentDidMount = () => {
+    const reactNode = this.scrollRef.current;
+    setParentRef(reactNode);
+  };
+}
+
+// @ts-ignore
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(withTranslation()(Router));
