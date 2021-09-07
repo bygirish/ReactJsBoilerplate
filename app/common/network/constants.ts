@@ -41,9 +41,6 @@ export const ERR_PRIVACY_POLICY_NOT_ACCEPTED = 'Privacy policy needs to be accep
 export const ERR_USER_NOT_FOUND = 'User not found';
 export const ERR_USER = 'ERR_USER';
 export const ERR_USER_ALREADY_PRESENT = 'ERR_USER_ALREADY_PRESENT';
-export const BATCH_NOT_FOUND = 'BATCH_NOT_FOUND';
-export const USER_ALREADY_EXIST_IN_SAME_BATCH_OR_COURSE = 'USER_ALREADY_EXIST_IN_SAME_BATCH_OR_COURSE';
-export const USER_NOT_ENROLLED_IN_COURSE = 'USER_NOT_ENROLLED_IN_COURSE';
 
 export const HTTP_STATUS_CODES = {
   Ok: 200,

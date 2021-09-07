@@ -11,9 +11,9 @@ importScripts(
 // setup for localhost
 let firebaseConfig = {
     apiKey: 'AIzaSyA8YRwzZW95cSPCVOfNtPZDG0gpG09IjCU',
-    authDomain: 'we-development-8a65f.firebaseapp.com',
-    projectId: 'we-development-8a65f',
-    storageBucket: 'we-development-8a65f.appspot.com',
+    authDomain: 'development-8a65f.firebaseapp.com',
+    projectId: 'development-8a65f',
+    storageBucket: 'development-8a65f.appspot.com',
     messagingSenderId: '79781451597',
     appId: '1:79781451597:web:eb1aef5e6c94530093c904',
     measurementId: 'G-J0YLC4PGFP'
