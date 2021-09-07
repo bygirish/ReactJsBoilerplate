@@ -16,6 +16,12 @@ const Home = {
 };
 
 
+const FormBuilder = {
+  default: '/form-builder',
+
+};
+
+
 const PageNotFound = {
   notFound: '/404',
 }
@@ -25,5 +31,6 @@ const PageNotFound = {
 export const Routes = {
   Auth,
   Home,
+  FormBuilder,
   PageNotFound,
 };

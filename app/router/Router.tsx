@@ -7,35 +7,22 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
-import "antd/dist/antd.css";
 import { BrowserScrollService } from "@utils/BrowserScrollService";
 import { ConnectedRouter } from "connected-react-router";
 import history from "@utils/history";
 import { Routes } from "@navigator/Routes";
-// import { RoutePrivate } from "@router/RoutePrivate";
-// import RoutePublic from "@router/RoutePublic";
 
-// // Auth
-// const ResetPassword = lazy(() =>
-//   import("@containers/Auth/ResetPasswordContainer")
-// );
-// const ChangePassword = lazy(() =>
-//   import("@containers/Auth/ChangePasswordContainer")
-// );
-// const ForgotPassword = lazy(() =>
-//   import("@containers/Auth/ForgotPasswordContainer")
-// );
-// const LoginNew = lazy(() => import("@containers/Auth/LoginContainer"));
-// const RegisterUser = lazy(() =>
-//   import("@containers/Auth/RegisterUserContainer")
-// );
-// const TnC = lazy(() => import("@containers/Auth/TnCContainer"));
+import Spinner from "@components/atoms/Spinner";
 
 
 // Home
 const HomePage = lazy(() => import("@containers/Home/HomePageContainer"));
 
-import Spinner from "@components/atoms/Spinner";
+
+const FormBuilder = lazy(() => import("@containers/FormBuilder/FormBuilderContainer")); 
+
+
+
 
 
 interface IProps {
@@ -87,6 +74,11 @@ class Router extends React.Component<IProps, IState> {
               exact
               path={Routes.Home.default}
               render={(props) => <HomePage {...props} />}
+            />
+            <Route
+              exact
+              path={Routes.FormBuilder.default}
+              render={(props) => <FormBuilder {...props} />}
             />
 
             {/* <Route
